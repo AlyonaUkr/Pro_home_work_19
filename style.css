@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.button-conteiner {
+    margin-top: 200px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    width: 200px;
+    padding: 20px 20px;
+    background-color: rgb(178, 112, 240);
+    color: rgb(46, 2, 87);
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(46, 2, 87);
+}
+
+.margin {
+    margin-left: 60px;
+}
